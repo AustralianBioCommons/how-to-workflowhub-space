@@ -46,7 +46,7 @@ An example workflow that follows the guidelines described:
 
 **2.2 License the workflow for reuse:** Make sure to add a license that allows others to reuse your workflow. If you are unsure which open source license to pick, the standard for the Australian BioCommons is [Apache 2.0](https://spdx.org/licenses/Apache-2.0.html).
 
-**2.3 Document the workflow well:** Update documentation so new users can understand what the workflow does, how it does this, and why. There are multiple options for how to document a workflow and include this in WorkflowHub. See the [documentation appendix](#documentation) for more information.
+**2.3 Document the workflow well:** Update documentation so new users can understand what the workflow does, how it does this, and why. There are multiple options for how to document a workflow and include this in WorkflowHub: {% tool "repository" %}, {% tool "guide" %}, {% tool "sop" %} and {% tool "wfh-entry" %}.
 
 **2.4 Add standard files (optional but recommended):** Consider adding a machine-readable standard file format to your GitHub repository (or similar). There are wizards for creating these files, so you don't need to know how to build them yourself.
 
@@ -112,24 +112,4 @@ Follow the instructions available in the WorkflowHub documentation to [**mint a 
 
 
 ### 8. Done, Thank you for contributing!
-
-
-## Appendix
-
-### Documentation
-
-#### Option 1: add documentation to your GitHub repository
-
-(use a template to make this easier)
-
-
-#### Option 2: create a How-to Guide
-
-(use a template to make this easier)
-
-
-#### Option 3: create documentation and upload to WorkflowHub as a document or SOP
-
-#### Option 4: add a description directly to the WorkflowHub entry
-
 
