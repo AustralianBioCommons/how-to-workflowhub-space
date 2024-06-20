@@ -54,7 +54,7 @@ An example workflow that follows the guidelines described:
 - **CITATION.CFF** --- [wizard link](https://citation-file-format.github.io/cff-initializer-javascript/#/)
 
 
-**2.5 Create a workflow release:** 
+**2.5 [Create a workflow release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)** 
 
 
 **2.6 Now that the hard part is completed, proceed to WorkflowHub!**
@@ -106,11 +106,9 @@ The minimum metadata expected for a workflow includes:
 
 ### 7. Create a DOI
 
-You can mint a [digital object identifier (DOI)](https://www.doi.org/) for your workflow using WorkflowHub. This allows you to generate a citation for your workflow.
+You can mint a [digital object identifier (DOI)](https://www.doi.org/) for your workflow using WorkflowHub. This allows you to create a *persistent* link to specific versions of your workflow and to also generate a citation for your workflow.
 
-To do this:
-
-1. 
+Follow the instructions available in the WorkflowHub documentation to [**mint a DOI**](https://about.workflowhub.eu/docs/citable/).
 
 
 ### 8. Done, Thank you for contributing!
