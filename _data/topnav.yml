@@ -1,9 +1,8 @@
 ## 
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
 subitems:
-- title: Guide
+- title: New workflow
   url: /index
-- title: About
-  url: /about
-
+- title: Existing workflow
+  url: /workflow_maintenance
     
