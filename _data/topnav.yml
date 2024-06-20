@@ -5,4 +5,6 @@ subitems:
   url: /index
 - title: Existing workflow
   url: /workflow_maintenance
+- title: Back to How-to Hub
+  url: https://australianbiocommons.github.io/how-to-hub/index
     

@@ -35,7 +35,7 @@ An example workflow that follows the guidelines described:
 
 ### 1. Create a workflow
 
-{% include callout.html type="note" content="Did you create your workflow in Galaxy? If so, don't forget to share it on the Galaxy instance where you created the workflow!" e.g. https://usegalaxy.org.au/workflows/list_published %}
+{% include callout.html type="note" content="Did you create your workflow in Galaxy? If so, don't forget to share it on the Galaxy instance where you created the workflow! e.g. https://usegalaxy.org.au/workflows/list_published" %}
 
 ### 2. Improve the workflow
 
@@ -50,8 +50,8 @@ An example workflow that follows the guidelines described:
 
 **2.4 Add standard files (optional but recommended):** Consider adding a machine-readable standard file format to your GitHub repository (or similar). There are wizards for creating these files, so you don't need to know how to build them yourself.
 
-- **codemeta.json** --- [wizard link]() 
-- **CITATION.CFF** --- [wizard link]()
+- **codemeta.json** --- [wizard link](https://codemeta.github.io/codemeta-generator/) 
+- **CITATION.CFF** --- [wizard link](https://citation-file-format.github.io/cff-initializer-javascript/#/)
 
 
 **2.5 Create a workflow release:** 
@@ -91,17 +91,22 @@ Follow the instructions available in the WorkflowHub documentation to:
 
 The minimum metadata expected for a workflow includes:
 
-- **Workflow title**: Make sure the title is descriptive and highlights what the workflow does.
-- **Creator(s)**: If you have included a `CITATION.cff` file in your GitHub repository, WorkflowHub can parse this and automatically populate the creator field.
-- **Description:** Note that descriptions included in GitHub repository README files will be automatically parsed by WorkflowHub.
-- **Maturity:** Indicate if the workflow is `mature` or a `work-in-progress`.
-- **License:** Note that if a license file is included in your GitHub repository it will be automatically parsed by WorkflowHub.
-- **EDAM Topic(s) and Operation(s):** Add concepts from [EDAM](https://github.com/edamontology/edamontology) as standardised short descriptions of workflow domain, purpose, and function. You can search for EDAM terms within the WorkflowHub workflow registration wizard. You can also use [EDAM browser](https://edamontology.github.io/edam-browser/) to explore and search the EDAM ontology for appropriate concepts.
+**Workflow title**: Make sure the title is descriptive and highlights what the workflow does.
+
+**Creator(s)**: If you have included a `CITATION.cff` file in your GitHub repository, WorkflowHub can parse this and automatically populate the creator field.
+
+**Description:** Note that descriptions included in GitHub repository README files will be automatically parsed by WorkflowHub.
+
+**Maturity:** Indicate if the workflow is `mature` or a `work-in-progress`.
+
+**License:** Note that if a license file is included in your GitHub repository it will be automatically parsed by WorkflowHub.
+
+**EDAM Topic(s) and Operation(s):** Add concepts from [EDAM](https://github.com/edamontology/edamontology) as standardised short descriptions of workflow domain, purpose, and function. You can search for EDAM terms within the WorkflowHub workflow registration wizard. You can also use [EDAM browser](https://edamontology.github.io/edam-browser/) to explore and search the EDAM ontology for appropriate concepts.
 
 
 ### 7. Create a DOI
 
-You can mint a digital object identifier (DOI) for your workflow using WorkflowHub. This allows you to generate a citation for your workflow.
+You can mint a [digital object identifier (DOI)](https://www.doi.org/) for your workflow using WorkflowHub. This allows you to generate a citation for your workflow.
 
 To do this:
 
@@ -115,7 +120,6 @@ To do this:
 
 ### Documentation
 
-
 #### Option 1: add documentation to your GitHub repository
 
 (use a template to make this easier)
@@ -127,4 +131,7 @@ To do this:
 
 
 #### Option 3: create documentation and upload to WorkflowHub as a document or SOP
+
+#### Option 4: add a description directly to the WorkflowHub entry
+
 
