@@ -14,6 +14,13 @@ sidebar: false
 > [Citation information goes here]
 
 
+## Contributors
+
+This How-to Guide would not be possible without the following contributors.
+
+{% include contributor-tiles-all.html %}
+
+
 ## Acknowledgements
 
 This work is supported by the Australian BioCommons which is enabled by NCRIS via Bioplatforms Australia funding.
@@ -22,6 +29,7 @@ This guide makes use of the [ELIXIR toolkit theme](https://github.com/ELIXIR-Bel
 
 {% include image.html file="elixir-toolkit-theme_logo.svg" alt="Elixir Toolkit Theme logo" max-width="15em" %}
 
+
 ## References
 
-> Add references as needed.
+> Soiland-Reyes, S., Goble, C., Bacall, F., Gustafsson, J., & Andrade Buono, R. (2024). A guide to using WorkflowHub. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.SOP.13.4

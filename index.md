@@ -4,7 +4,7 @@ sidebar: false
 ---
 
 
-{% include callout.html type="note" content="Are you looking to register a new version of an existing workflow, or edit the metadata for an existing workflow? [See this page instead](workflow_maintenance)!" %}
+{% include callout.html type="tip" content="Are you looking to register a new version of an existing workflow, or edit the metadata for an existing workflow? [See this page instead](workflow_maintenance)!" %}
 
 
 ## Quick start guide
@@ -27,7 +27,7 @@ An example workflow that follows the guidelines described:
 
 ## Things to note
 
-- All workflows in the Australian BioCommons WorkflowHub space will automatically appear in the [WorkflowFinder service]() as well.
+- All workflows in the Australian BioCommons WorkflowHub space will automatically appear in the [WorkflowFinder service](https://australianbiocommons.github.io/2_1_workflows.html) as well.
 - A minimum set of metadata is expected for workflows registered in the BioCommons WorkflowHub space. These are described in more detail in the [register your workflow section](#register-your-workflow).
 
 
@@ -35,7 +35,7 @@ An example workflow that follows the guidelines described:
 
 ### 1. Create a workflow
 
-{% include callout.html type="note" content="Did you create your workflow in Galaxy? If so, don't forget to [share it]() on the Galaxy instance where you created the workflow!" %}
+{% include callout.html type="note" content="Did you create your workflow in Galaxy? If so, don't forget to share it on the Galaxy instance where you created the workflow!" e.g. https://usegalaxy.org.au/workflows/list_published %}
 
 ### 2. Improve the workflow
 
@@ -44,7 +44,7 @@ An example workflow that follows the guidelines described:
 
 **2.1 Version control the workflow with git:** Add your workflow to a git repository (e.g. GitHub). This allows easy import into WorkflowHub (and in particular the import of new versions!).
 
-**2.2 License the workflow for reuse:** Make sure to add a license that allows others to reuse your workflow. If you are unsure which open source license to pick, the standard for the Australian BioCommons is [Apache 2.0]().
+**2.2 License the workflow for reuse:** Make sure to add a license that allows others to reuse your workflow. If you are unsure which open source license to pick, the standard for the Australian BioCommons is [Apache 2.0](https://spdx.org/licenses/Apache-2.0.html).
 
 **2.3 Document the workflow well:** Update documentation so new users can understand what the workflow does, how it does this, and why. There are multiple options for how to document a workflow and include this in WorkflowHub. See the [documentation appendix](#documentation) for more information.
 
@@ -79,7 +79,7 @@ Is there a Team available to join? Below are the current options in the BioCommo
 If there is no suitable Team, you can create a new one by [**clicking this link**](https://workflowhub.eu/projects/guided_create). Make sure you select the `Australian BioCommons` Space.
 
 
-### 5. Registering a new workflow
+### 5. Registering the workflow
 
 Follow the instructions available in the WorkflowHub documentation to:
 
