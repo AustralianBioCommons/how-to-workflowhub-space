@@ -7,13 +7,13 @@
 
 .navbar-nav .nav-item > a {
     &.active {
-        color: $primary;
-        background-color: $white;
+        color: $white;
+        background-color: $primary;
         border-radius: $border-radius;
     }
-    color: $white;
+    color: $primary;
     white-space: nowrap;
-    background-color: $primary;
+    background-color: $white;
     border-radius: $border-radius;
 }
 
