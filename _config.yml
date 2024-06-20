@@ -14,6 +14,9 @@ theme_variables:
   theme_color: 205a86
   topnav:
     brand_logo: assets/img/Australian-Biocommons-Logo-Tagline-Community-RGB.png
+  toc:
+    min_headings: 2
+    headings: 'h2, h3'
 
 exclude:
   - README.md
@@ -34,3 +37,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-github-metadata
   - webrick
+  - elixir-toolkit-theme-plugins
