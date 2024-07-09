@@ -18,3 +18,31 @@
   description: Add a description directly to the WorkflowHub entry.
   url: https://about.workflowhub.eu/docs/complete-workflow-metadata/#metadata-part-a
   name: Use the WorkflowHub description field
+- id: galaxy-team
+  description: Galaxy is an open, web-based platform for accessible, reproducible, and transparent computational biological research.
+  url: https://workflowhub.eu/projects/54
+  name: Galaxy Australia WorkflowHub team
+- id: sih-team
+  description: The Sydney Informatics Hub is a Core Research Facility of The University of Sydney. We work towards enabling excellence in data and compute intensive research. We provide support, training, and expertise in statistics, data science, artificial intelligence, bioinformatics, software engineering, simulation, visualisation, and research computing. We are creating reusable workflows for bioinformatics on Australia's national supercompute resources & commercial cloud, as an official node of the Australian Biocommons.
+  url: https://workflowhub.eu/projects/43
+  name: Sydney Informatics Hub (SIH) WorkflowHub team
+- id: pawsey-team
+  description: Pawsey Supercomputing Centre WorkflowHub team
+  url: https://workflowhub.eu/projects/42
+  name: Pawsey Supercomputing Centre WorkflowHub team
+- id: qcif-team
+  description: Working closely with researchers, the QCIF Bioinformatics team apply data management, processing, integration, analysis and visualisation techniques to maximise the potential value of biological and clinical data sets. QCIF Bioinformatics is a partner in the Australian BioCommons.
+  url: https://workflowhub.eu/projects/41
+  name: Queensland Cyber Infrastructure Foundation (QCIF) WorkflowHub team
+- id: janis-team
+  description: Janis is an open-source Python framework that aims to address the portability and interoperability problems between workflow specifications, by abstracting both the workflow and execution model in order to generate CWL, WDL or Nextflow workflows.
+  url: https://workflowhub.eu/projects/48
+  name: Janis WorkflowHub team
+- id: cff
+  name: Citation File Format
+  description:
+  url: 
+- id: codemeta
+  name: Codemeta
+  description:
+  url: https://codemeta.github.io/

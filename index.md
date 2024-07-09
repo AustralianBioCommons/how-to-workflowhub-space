@@ -41,7 +41,6 @@ An example workflow that follows the guidelines described:
 
 {% include callout.html type="note" content="Completing all the steps in part #1 (above) before visiting WorkflowHub will ensure a user can find, understand, and reuse your workflow. Even more importantly, it will save you time later!" %}
 
-
 #### 2.1 Version control the workflow with git
 
 Add your workflow to a git enabled repository (e.g. GitHub). This allows easy import into WorkflowHub, and in particular the import of new workflow versions!.
@@ -56,10 +55,10 @@ Update documentation so new users can understand what the workflow does, how it 
 
 #### 2.4 Add standard files (optional but recommended)
 
-Consider adding a machine-readable standard file format to your GitHub repository (or similar). There are wizards for creating these files, so you don't need to know how to build them yourself.
+Consider adding a machine-readable standard file format like `CITATION.cff` or `codemeta.json` to your  workflow repository (e.g. GitHub, or similar). There are wizards for creating these files, so you don't need to know how to build them yourself.
 
-- **codemeta.json** --- [wizard link](https://codemeta.github.io/codemeta-generator/) 
-- **CITATION.CFF** --- [wizard link](https://citation-file-format.github.io/cff-initializer-javascript/#/)
+- {% tool "codemeta" %} --- [Wizard link](https://codemeta.github.io/codemeta-generator/) 
+- {% tool "cff" %} --- [Wizard link](https://citation-file-format.github.io/cff-initializer-javascript/#/)
 
 #### 2.5 [Create a workflow release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
 
@@ -76,13 +75,13 @@ Consider adding a machine-readable standard file format to your GitHub repositor
 
 Is there a Team available to join? Below are the current options in the BioCommons space. If any of these Teams are suitable, click the link below to request membership:
 
-- [**Galaxy Australia**](https://workflowhub.eu/projects/54) - [request to join](https://workflowhub.eu/projects/54/guided_join)
-- [**Sydney Informatics Hub**](https://workflowhub.eu/projects/43) - [request to join](https://workflowhub.eu/projects/43/guided_join)
-- [**Pawsey Supercomputing Centre**](https://workflowhub.eu/projects/42) - [request to join](https://workflowhub.eu/projects/42/guided_join)
-- [**QCIF**](https://workflowhub.eu/projects/41) - [request to join](https://workflowhub.eu/projects/41/guided_join)
-- [**Janis**](https://workflowhub.eu/projects/48) - [request to join](https://workflowhub.eu/projects/48/guided_join)
+- {% tool "galaxy-team" %} - [`Request to join`](https://workflowhub.eu/projects/54/guided_join)
+- {% tool "sih-team" %} - [`Request to join`](https://workflowhub.eu/projects/43/guided_join)
+- {% tool "pawsey-team" %} - [`Request to join`](https://workflowhub.eu/projects/42/guided_join)
+- {% tool "qcif-team" %} - [`Request to join`](https://workflowhub.eu/projects/41/guided_join)
+- {% tool "janis-team" %} - [`Request to join`](https://workflowhub.eu/projects/48/guided_join)
 
-If there is no suitable Team, you can create a new one by [**clicking this link**](https://workflowhub.eu/projects/guided_create). Make sure you select the `Australian BioCommons` Space.
+If there is no suitable Team, you can [**create a new one here**](https://workflowhub.eu/projects/guided_create). Make sure you select the `Australian BioCommons` Space.
 
 
 ### 5. Registering the workflow
@@ -97,14 +96,14 @@ Follow the instructions available in the WorkflowHub documentation to:
 
 The minimum metadata expected for a workflow:
 
-| Field                              | Description|
-|------------------------------------|--------------------------------------------------------------------|
-| **Workflow title**                 | Make sure the title is descriptive and highlights what the workflow does.|
-| **Creator(s)**                     | If you have included a `CITATION.cff` file in your GitHub repository, WorkflowHub can parse this and automatically populate the creator field. |
-| **Description**                    | Note that descriptions included in GitHub repository README files will be automatically parsed by WorkflowHub. |
-| **Maturity**                       | Indicate if the workflow is `mature` or a `work-in-progress`. |
-| **License**                        | Note that if a license file is included in your GitHub repository it will be automatically parsed by WorkflowHub. |
-| **EDAM Topic(s) and Operation(s)** | Add concepts from [EDAM](https://github.com/edamontology/edamontology) as standardised short descriptions of workflow domain, purpose, and function. You can search for EDAM terms within the WorkflowHub workflow registration wizard. You can also use [EDAM browser](https://edamontology.github.io/edam-browser/) to explore and search the EDAM ontology for appropriate concepts. |
+| Field                      | Description|
+|----------------------------|--------------------------------------------------------------------|
+| Workflow title             | Make sure the title is descriptive and highlights what the workflow does.|
+| Creator(s)               | If you have included a `CITATION.cff` file in your GitHub repository, WorkflowHub can parse this and automatically populate the creator field. |
+| Description              | Note that descriptions included in GitHub repository README files will be automatically parsed by WorkflowHub. |
+| Maturity                 | Indicate if the workflow is `mature` or a `work-in-progress`. |
+| License                    | Note that if a license file is included in your GitHub repository it will be automatically parsed by WorkflowHub. |
+| EDAM Topics and Operations | Add concepts from [EDAM](https://github.com/edamontology/edamontology) as standardised short descriptions of workflow domain, purpose, and function. You can search for EDAM terms within the WorkflowHub workflow registration wizard. You can also use [EDAM browser](https://edamontology.github.io/edam-browser/) to explore and search the EDAM ontology for appropriate concepts. |
 
 
 ### 7. Create a DOI
