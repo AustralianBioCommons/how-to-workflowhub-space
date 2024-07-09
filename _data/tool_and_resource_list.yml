@@ -4,7 +4,7 @@
 
 - id: repository
   description: Add documentation to your GitHub repository. Use existing templates to make this easier.
-  url:
+  url: https://about.workflowhub.eu/docs/guide-to-using-workflowhub/#other-workflowhub-features
   name: Repository based documentation
 - id: guide
   description: Create a How-to Guide. Follow the instructions available at the link below.
@@ -16,5 +16,5 @@
   name: Write a standard operating procedure (SOP)
 - id: wfh-entry
   description: Add a description directly to the WorkflowHub entry.
-  url:
+  url: https://about.workflowhub.eu/docs/complete-workflow-metadata/#metadata-part-a
   name: Use the WorkflowHub description field
