@@ -9,9 +9,17 @@ toc: false
 {% include section-navigation-tiles-simple.html col = "2" type="Guide"%}
 
 
-## About 
+## About
 
-> Add 2-3 sentences here explaining the purpose of the specific guide you are creating.
+WorkflowHub provides instructions for [registering](https://about.workflowhub.eu/docs/registering_workflows/registering-a-workflow/) and [updating](https://about.workflowhub.eu/docs/guide-to-using-workflowhub/#keeping-workflows-up-to-date) workflows. 
+
+Here, we have adapted and expanded on these instructions to support Australian contributors to WorkflowHub, in particular those contributing to the [Australian BioCommons Space on WorkflowHub](https://workflowhub.eu/programmes/8/workflows).
+
+
+### Things to note
+
+- All workflows in the Australian BioCommons WorkflowHub space will automatically appear in the [WorkflowFinder service](https://australianbiocommons.github.io/workflowfinder).
+- A minimum set of metadata is expected for workflows registered in the BioCommons WorkflowHub space. These are described in more [detail here](new_workflow).
 
 
 ## Please cite this guide as follows
