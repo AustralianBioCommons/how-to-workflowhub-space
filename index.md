@@ -134,5 +134,7 @@ You can mint a [digital object identifier (DOI)](https://www.doi.org/) for your 
 Follow the instructions available in the WorkflowHub documentation to [**mint a DOI**](https://about.workflowhub.eu/docs/citable/).
 
 
-### 8. Done, Thank you for contributing!
+### 9. Add workflow How-to Guide metadata
+
+### 10. Done, Thank you for contributing!
 
