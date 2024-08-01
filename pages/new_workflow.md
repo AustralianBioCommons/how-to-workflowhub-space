@@ -1,5 +1,6 @@
 ---
-title: How-to contribute a workflow to the BioCommons WorkflowHub space
+title: Create a new registry entry for a workflow
+type: Guide
 sidebar: false
 ---
 
