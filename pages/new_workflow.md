@@ -5,9 +5,6 @@ sidebar: false
 ---
 
 
-{% include callout.html type="tip" content="Are you looking to register a new version of an existing workflow, or edit the metadata for an existing workflow? [See this page instead](workflow_maintenance)!" %}
-
-
 ## Quick start guide
 
 1. [Create a workflow!](#1-create-a-workflow) 
@@ -30,11 +27,6 @@ An example workflow that follows the guidelines described:
 > Price, G., & Farquharson, K. (2022). PacBio HiFi genome assembly using hifiasm v2.1. WorkflowHub. [https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3](https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3)
 
 ![](images/example.png)
-
-### Things to note
-
-- All workflows in the Australian BioCommons WorkflowHub space will automatically appear in the [WorkflowFinder service](https://australianbiocommons.github.io/2_1_workflows.html) as well.
-- A minimum set of metadata is expected for workflows registered in the BioCommons WorkflowHub space. These are described in more detail in the [add minimum metadata section](#6-add-minimum-metadata).
 
 
 ## More in-depth guide
