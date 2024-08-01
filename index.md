@@ -15,14 +15,16 @@ sidebar: false
 4. [Join a team, or create a new Team](#4-join-a-team-or-create-a-new-team)
 5. [Register your workflow](#5-registering-the-workflow)
 6. [Add minimum metadata](#6-add-minimum-metadata)
-7. [Create a DOI](#7-create-a-doi)
-8. Done. Thank you for contributing!
+7. [Add attributions for other workflows](#7-add-attributions-for-other-workflows)
+8. [Create a DOI](#8-create-a-doi)
+9. [Add workflow How-to Guide metadata](#9-add-workflow-how-to-guide-metadata)
+10. Done. Thank you for contributing!
 
 
 ### Example
 
 An example workflow that follows the guidelines described:
-> Price, G., & Farquharson, K. (2022). PacBio HiFi genome assembly using hifiasm v2.1. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3
+> Price, G., & Farquharson, K. (2022). PacBio HiFi genome assembly using hifiasm v2.1. WorkflowHub. [https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3](https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3)
 
 
 ### Things to note
@@ -39,7 +41,6 @@ An example workflow that follows the guidelines described:
 
 ### 2. Improve the workflow
 
-{% include callout.html type="note" content="Completing all the steps in part #1 (above) before visiting WorkflowHub will ensure a user can find, understand, and reuse your workflow. Even more importantly, it will save you time later!" %}
 
 #### 2.1 Version control the workflow with git
 
@@ -63,6 +64,9 @@ Consider adding a machine-readable standard file format like `CITATION.cff` or `
 #### 2.5 [Create a workflow release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
 
 #### 2.6 Now that the hard part is completed, [proceed to WorkflowHub!](https://workflowhub.eu/)
+
+
+{% include callout.html type="note" content="Completing all the steps in part #2 (above) before visiting WorkflowHub will ensure a user can find, understand, and reuse your workflow. Importantly, it will also save you time later!" %}
 
 
 ### 3. Are you a new WorkflowHub user?
@@ -106,7 +110,12 @@ The minimum metadata expected for a workflow:
 | EDAM Topics and Operations | Add concepts from [EDAM](https://github.com/edamontology/edamontology) as standardised short descriptions of workflow domain, purpose, and function. You can search for EDAM terms within the WorkflowHub workflow registration wizard. You can also use [EDAM browser](https://edamontology.github.io/edam-browser/) to explore and search the EDAM ontology for appropriate concepts. |
 
 
-### 7. Create a DOI
+### 7. Add attributions for other workflows
+
+
+
+
+### 8. Create a DOI
 
 You can mint a [digital object identifier (DOI)](https://www.doi.org/) for your workflow using WorkflowHub. This allows you to create a *persistent* link to specific versions of your workflow and to also generate a citation for your workflow.
 
