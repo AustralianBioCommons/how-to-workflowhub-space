@@ -26,6 +26,7 @@ sidebar: false
 An example workflow that follows the guidelines described:
 > Price, G., & Farquharson, K. (2022). PacBio HiFi genome assembly using hifiasm v2.1. WorkflowHub. [https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3](https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3)
 
+![](images/example.png)
 
 ### Things to note
 
@@ -44,15 +45,22 @@ An example workflow that follows the guidelines described:
 
 #### 2.1 Version control the workflow with git
 
-Add your workflow to a git enabled repository (e.g. GitHub). This allows easy import into WorkflowHub, and in particular the import of new workflow versions!.
+Add your workflow to a Git enabled repository (e.g. [GitHub](https://github.com/)). This allows easy import into WorkflowHub, and in particular the import of new workflow versions!
 
 #### 2.2 License the workflow for reuse
 
-Make sure to add a license that allows others to reuse your workflow. If you are unsure which open source license to pick, the standard for the Australian BioCommons is [Apache 2.0](https://spdx.org/licenses/Apache-2.0.html).
+Make sure to add a license that allows others to reuse your workflow. This resource can help you choose a license: https://choosealicense.com/
+
+If you are still unsure which open source license to pick, the standard for the Australian BioCommons is [Apache 2.0](https://spdx.org/licenses/Apache-2.0.html).
 
 #### 2.3 Document the workflow well
 
-Update documentation so new users can understand what the workflow does, how it does this, and why. There are multiple options for how to document a workflow and include this in WorkflowHub: {% tool "repository" %}, {% tool "guide" %}, {% tool "sop" %} and {% tool "wfh-entry" %}.
+Update documentation so new users can understand what the workflow does, how it does this, and why. There are multiple options for how to document a workflow and include this in WorkflowHub: 
+
+- {% tool "repository" %}
+- {% tool "guide" %}
+- {% tool "sop" %}
+- {% tool "wfh-entry" %}.
 
 #### 2.4 Add standard files (optional but recommended)
 
@@ -61,7 +69,9 @@ Consider adding a machine-readable standard file format like `CITATION.cff` or `
 - {% tool "codemeta" %} --- [Wizard link](https://codemeta.github.io/codemeta-generator/) 
 - {% tool "cff" %} --- [Wizard link](https://citation-file-format.github.io/cff-initializer-javascript/#/)
 
-#### 2.5 [Create a workflow release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
+#### 2.5 Create a workflow release
+
+Follow the [instructions on GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) to create a workflow release and tag.
 
 #### 2.6 Now that the hard part is completed, [proceed to WorkflowHub!](https://workflowhub.eu/)
 
@@ -112,7 +122,9 @@ The minimum metadata expected for a workflow:
 
 ### 7. Add attributions for other workflows
 
+If the workflow you are registering is based on another workflow that is also registered in WorkflowHub, you can add this workflow to the `Attribution` metadata field during registration (see below).
 
+![](images/attributions.png)
 
 
 ### 8. Create a DOI
