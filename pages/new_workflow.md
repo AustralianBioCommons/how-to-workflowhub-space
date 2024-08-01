@@ -7,16 +7,14 @@ sidebar: false
 
 ## Quick start guide
 
-1. [Create a workflow!](#1-create-a-workflow) 
-2. [Improve the workflow (i.e. version control, license, documentation)](#2-improve-the-workflow)
-3. [Register or Log-in to WorkflowHub](#3-are-you-a-new-workflowhub-user)
-4. [Join a team, or create a new Team](#4-join-a-team-or-create-a-new-team)
-5. [Register your workflow](#5-registering-the-workflow)
-6. [Add minimum metadata](#6-add-minimum-metadata)
-7. [Add attributions for other workflows](#7-add-attributions-for-other-workflows)
-8. [Create a DOI](#8-create-a-doi)
-9. [Add workflow How-to Guide metadata](#9-add-workflow-how-to-guide-metadata)
-10. Done. Thank you for contributing!
+1. [Register or Log-in to WorkflowHub](#1-are-you-a-new-workflowhub-user)
+2. [Join a team, or create a new Team](#2-join-a-team-or-create-a-new-team)
+3. [Register your workflow](#3-registering-the-workflow)
+4. [Add minimum metadata](#4-add-minimum-metadata)
+5. [Add attributions for other workflows](#5-add-attributions-for-other-workflows)
+6. [Create a DOI](#6-create-a-doi)
+7. [Add workflow How-to Guide metadata](#7-add-workflow-how-to-guide-metadata)
+8. Done. Thank you for contributing!
 
 {% include callout.html type="tip" content="[See WorkflowHub documentation for more information](https://about.workflowhub.eu/docs/registering_workflows/)." %}
 
@@ -31,16 +29,13 @@ An example workflow that follows the guidelines described:
 
 ## More in-depth guide
 
-
-
-
-### 3. Are you a new WorkflowHub user?
+### 1. Are you a new WorkflowHub user?
 
 - **Yes:** [Register with WorkflowHub](https://workflowhub.eu/signup). Make sure to add your organisation(s) / affiliation(s).
 - **No:** [Login to WorkflowHub](https://workflowhub.eu/login)
 
 
-### 4. Join a team, or create a new Team
+### 2. Join a team, or create a new Team
 
 Is there a Team available to join? Below are the current options in the BioCommons space. If any of these Teams are suitable, click the link below to request membership:
 
@@ -53,7 +48,7 @@ Is there a Team available to join? Below are the current options in the BioCommo
 If there is no suitable Team, you can [**create a new one here**](https://workflowhub.eu/projects/guided_create). Make sure you select the `Australian BioCommons` Space.
 
 
-### 5. Registering the workflow
+### 3. Registering the workflow
 
 Follow the instructions available in the WorkflowHub documentation to:
 
@@ -61,7 +56,7 @@ Follow the instructions available in the WorkflowHub documentation to:
 2. [**Complete workflow metadata**](https://about.workflowhub.eu/docs/complete-workflow-metadata/)
 
 
-### 6. Add minimum metadata
+### 4. Add minimum metadata
 
 The minimum metadata expected for a workflow:
 
@@ -75,21 +70,21 @@ The minimum metadata expected for a workflow:
 | EDAM Topics and Operations | Add concepts from [EDAM](https://github.com/edamontology/edamontology) as standardised short descriptions of workflow domain, purpose, and function. You can search for EDAM terms within the WorkflowHub workflow registration wizard. You can also use [EDAM browser](https://edamontology.github.io/edam-browser/) to explore and search the EDAM ontology for appropriate concepts. |
 
 
-### 7. Add attributions for other workflows
+### 5. Add attributions for other workflows
 
 If the workflow you are registering is based on another workflow that is also registered in WorkflowHub, you can add this workflow to the `Attribution` metadata field during registration (see below).
 
 ![](images/attributions.png)
 
 
-### 8. Create a DOI
+### 6. Create a DOI
 
 You can mint a [digital object identifier (DOI)](https://www.doi.org/) for your workflow using WorkflowHub. This allows you to create a *persistent* link to specific versions of your workflow and to also generate a citation for your workflow.
 
 Follow the instructions available in the WorkflowHub documentation to [**mint a DOI**](https://about.workflowhub.eu/docs/citable/).
 
 
-### 9. Add workflow How-to Guide metadata
+### 7. Add workflow How-to Guide metadata
 
-### 10. Done, Thank you for contributing!
+### 8. Done, Thank you for contributing!
 
