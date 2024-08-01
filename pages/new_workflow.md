@@ -21,6 +21,8 @@ sidebar: false
 9. [Add workflow How-to Guide metadata](#9-add-workflow-how-to-guide-metadata)
 10. Done. Thank you for contributing!
 
+{% include callout.html type="tip" content="[See WorkflowHub documentation for more information](https://about.workflowhub.eu/docs/registering_workflows/)." %}
+
 
 ### Example
 
