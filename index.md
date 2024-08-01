@@ -1,6 +1,7 @@
 ---
 title: How-to contribute a workflow to the BioCommons WorkflowHub space
 sidebar: false
+toc: false
 ---
 
 ## What would you like to do?
