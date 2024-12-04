@@ -46,7 +46,9 @@ Is there a Team available to join? Below are the current options in the BioCommo
 - {% tool "janis-team" %} - [`Request to join`](https://workflowhub.eu/projects/48/guided_join)
 - {% tool "nci-team" %} - [`Request to join`](https://workflowhub.eu/projects/289/guided_join)
 
-If there is no suitable Team, you can request a new one for the `Australian BioCommons` Space by [**creating an issue here**](https://github.com/AustralianBioCommons/how-to-workflowhub-space/issues/new).
+If there is no suitable Team, you can [request a new one in the `Independent Teams` Space](https://workflowhub.eu/projects/guided_create).
+
+Instructions for requesting a Team in the `Australian BioCommons` Space will be available soon.
 
 
 ### 3. Registering the workflow
