@@ -12,7 +12,7 @@
   name: Create a How-to Guide
 - id: sop
   description: Create documentation and upload to WorkflowHub as a document or SOP.
-  url:
+  url: https://about.workflowhub.eu/docs/guide-to-using-workflowhub/#other-workflowhub-features
   name: Write a standard operating procedure (SOP)
 - id: wfh-entry
   description: Add a description directly to the WorkflowHub entry.
@@ -41,7 +41,7 @@
 - id: cff
   name: Citation File Format
   description:
-  url: 
+  url: https://citation-file-format.github.io/
 - id: codemeta
   name: Codemeta
   description:
