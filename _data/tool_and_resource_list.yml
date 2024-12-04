@@ -46,3 +46,7 @@
   name: Codemeta
   description:
   url: https://codemeta.github.io/
+- id: nci-team
+  description: The National Computational Infrastructure (NCI) is one of Australia’s leading Tier-1 facilities for high-performance computing, data, and storage. It provides specialised services to support bioinformatics workflows, alongside a wide range of applications in science, government, and industry.
+  url: https://workflowhub.eu/projects/289
+  name: National Computational Infrastructure (NCI) WorkflowHub team

@@ -44,8 +44,9 @@ Is there a Team available to join? Below are the current options in the BioCommo
 - {% tool "pawsey-team" %} - [`Request to join`](https://workflowhub.eu/projects/42/guided_join)
 - {% tool "qcif-team" %} - [`Request to join`](https://workflowhub.eu/projects/41/guided_join)
 - {% tool "janis-team" %} - [`Request to join`](https://workflowhub.eu/projects/48/guided_join)
+- {% tool "nci-team" %} - [`Request to join`](https://workflowhub.eu/projects/289/guided_join)
 
-If there is no suitable Team, you can [**create a new one here**](https://workflowhub.eu/projects/guided_create). Make sure you select the `Australian BioCommons` Space.
+If there is no suitable Team, you can request a new one for the `Australian BioCommons` Space by [**creating an issue here**](https://github.com/AustralianBioCommons/how-to-workflowhub-space/issues/new).
 
 
 ### 3. Registering the workflow
@@ -58,7 +59,7 @@ Follow the instructions available in the WorkflowHub documentation to:
 
 ### 4. Add minimum metadata
 
-The minimum metadata expected for a workflow:
+The minimum metadata expected for a workflow includes:
 
 | Field                      | Description|
 |----------------------------|--------------------------------------------------------------------|
