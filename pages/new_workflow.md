@@ -52,8 +52,8 @@ If there is no suitable Team, you can [**create a new one here**](https://workfl
 
 Follow the instructions available in the WorkflowHub documentation to:
 
-1. [**Import a Git repository**](https://about.workflowhub.eu/docs/adding-files/#git), and
-2. [**Complete workflow metadata**](https://about.workflowhub.eu/docs/complete-workflow-metadata/)
+1. [**Import a Git repository**](https://about.workflowhub.eu/docs/registering_workflows/adding-files/#git), and
+2. [**Complete workflow metadata**](https://about.workflowhub.eu/docs/registering_workflows/complete-workflow-metadata/)
 
 
 ### 4. Add minimum metadata
