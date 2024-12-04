@@ -15,11 +15,7 @@ WorkflowHub provides instructions for [registering](https://about.workflowhub.eu
 
 Here, we have adapted and expanded on these instructions to support Australian contributors to WorkflowHub, in particular those contributing to the [Australian BioCommons Space on WorkflowHub](https://workflowhub.eu/programmes/8/workflows).
 
-
-### Things to note
-
-- All workflows in the Australian BioCommons WorkflowHub space will automatically appear in the [WorkflowFinder service](https://australianbiocommons.github.io/workflowfinder).
-- A minimum set of metadata is expected for workflows registered in the BioCommons WorkflowHub space. These are described in more [detail here](new_workflow).
+{% include callout.html type="note" content="All workflows in the Australian BioCommons WorkflowHub space will automatically appear in the [WorkflowFinder service](https://australianbiocommons.github.io/workflowfinder). A minimum set of metadata is expected for workflows registered in the BioCommons WorkflowHub space. These are described in more [detail here](new_workflow)." %}
 
 
 ## Please cite this guide as follows

@@ -1,10 +1,6 @@
 ## 
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
 subitems:
-- title: New workflow
-  url: /new_workflow
-- title: Existing workflow
-  url: /workflow_maintenance
 - title: Back to How-to Hub
   url: https://australianbiocommons.github.io/how-to-hub/index
     

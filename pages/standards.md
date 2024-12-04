@@ -34,7 +34,7 @@ Update documentation so new users can understand what the workflow does, how it 
 - {% tool "wfh-entry" %}.
 
 
-### 5. Add standard files (optional but recommended)
+### 5. Add a standard metadata file
 
 Consider adding a machine-readable standard file format like `CITATION.cff` or `codemeta.json` to your  workflow repository (e.g. GitHub, or similar). There are wizards for creating these files, so you don't need to know how to build them yourself.
 
