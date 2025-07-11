@@ -1,15 +1,9 @@
 ---
-title: How-to contribute a workflow to the BioCommons WorkflowHub space
+title: How-to contribute workflows to the BioCommons WorkflowHub space
 sidebar: false
 toc: false
 ---
 
-## What would you like to do?
-
-{% include section-navigation-tiles-simple.html col = "2" type="Guide"%}
-
-
-## About
 
 WorkflowHub provides instructions for [registering](https://about.workflowhub.eu/docs/registering_workflows/registering-a-workflow/) and [updating](https://about.workflowhub.eu/docs/guide-to-using-workflowhub/#keeping-workflows-up-to-date) workflows. 
 
@@ -18,9 +12,9 @@ Here, we have adapted and expanded on these instructions to support Australian c
 {% include callout.html type="note" content="All workflows in the Australian BioCommons WorkflowHub space will automatically appear in the [WorkflowFinder service](https://australianbiocommons.github.io/workflowfinder). A minimum set of metadata is expected for workflows registered in the BioCommons WorkflowHub space. These are described in more [detail here](new_workflow)." %}
 
 
-## Please cite this guide as follows
+## What would you like to do?
 
-> [Citation information goes here]
+{% include section-navigation-tiles-simple.html col = "1" type="Guide"%}
 
 
 ## Contributors
@@ -41,5 +35,5 @@ This guide makes use of the [ELIXIR toolkit theme](https://github.com/ELIXIR-Bel
 
 ## References
 
-> Soiland-Reyes, S., Goble, C., Bacall, F., Gustafsson, J., & Andrade Buono, R. (2024). A guide to using WorkflowHub. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.SOP.13.4
+> Soiland-Reyes, S., Goble, C., Bacall, F., Gustafsson, J., & Andrade Buono, R. (2024). A guide to using WorkflowHub. WorkflowHub. [https://doi.org/10.48546/WORKFLOWHUB.SOP.13.4](https://doi.org/10.48546/WORKFLOWHUB.SOP.13.4)
 
