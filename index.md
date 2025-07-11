@@ -17,14 +17,11 @@ Here, we have adapted and expanded on these instructions to support Australian c
 {% include section-navigation-tiles-simple.html col = "1" type="Guide"%}
 
 
-## Contributors
+## Acknowledgements
 
 This How-to Guide would not be possible without the following contributors.
 
 {% include contributor-tiles-all.html %}
-
-
-## Acknowledgements
 
 This work is supported by the Australian BioCommons which is enabled by NCRIS via Bioplatforms Australia funding.
 
